@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../partner-handler.js" defer></script>
+</head>
+
+<body class="page-partner">
+    <div class = "container">
+
+        <div class = "slides slide1 feedback-single-slide"> 
+            <div class = "header"> 
+                <a href="../first.html" class="teamtitle">L4C-25</a>
+                <nav class="nav">
+                    <div class="dropdown">
+                        <button class = "link"> Information </button>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-column">
+                                    <h3>Find Help</h3>
+                                    <a href="../find-help/resource1.html">EasterSeals</a>
+                                    <a href="../find-help/resource2.html">Invisible Reality</a>
+                                    <a href="../find-help/resource3.html">Making a Difference</a>
+                                </div>
+                                <div class="dropdown-column">
+                                    <h3>Learn More</h3>
+                                    <a href="../learn-more/mental-developmental-disabilities.html">Information on Invisible Disabilities</a>
+                                    <a href="../learn-more/chronic-illnesses.html">What we Do</a>
+                                    <a href="../learn-more/our-projects.html">Our Projects &amp; Initiatives</a>
+                                </div>
+                                <div class="dropdown-column">
+                                    <h3>Get Involved</h3>
+                                    <a href="feedback.html">Feedback</a>
+                                    <a href="partner.html">Partner</a>
+                                </div>
+                            </div>
+                    </div>
+                    <a href="../socials.html" class="link socials"> Contact Us </a>
+                    <button class = "link donate-nav"> Donate → </button>
+                </nav>
+            </div>
+            <div class="feedback-content" id="partnerContent">
+                <div class="feedback-title-container">
+                    <h1 class="feedback-title">Interested in Partnering With Us?</h1>
+                    <div class="title-divider"></div>
+                </div>
+                <button class="feedback-open-btn" id="openPartnerBtn">Let Us Know</button>
+                <p class="partner-email-line">or send us a message!</p>
+                <p class="partner-email-line"><a href="../socials.html">Contact Us</a></p>
+
+                <div class="feedback-form-container" id="partnerFormContainer">
+                    <form class="feedback-form" id="partnerForm">
+                        <h2>We'd Love To Partner With You :-)</h2>
+
+                        <div class="form-group">
+                            <label for="partnerName">Name *</label>
+                            <input type="text" id="partnerName" name="partnerName" placeholder="Your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="partnerEmail">Email *</label>
+                            <input type="email" id="partnerEmail" name="partnerEmail" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="partnerOrg">Organization (Optional)</label>
+                            <input type="text" id="partnerOrg" name="partnerOrg" placeholder="Your organization">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="partnerMessage">Partnership Message *</label>
+                            <textarea id="partnerMessage" name="partnerMessage" rows="6" placeholder="Tell us how you'd like to partner with us!" required></textarea>
+                        </div>
+
+                        <div class="form-buttons">
+                            <button type="submit" class="submit-btn">Submit Interest</button>
+                            <button type="button" class="cancel-btn" id="cancelPartnerBtn">Cancel</button>
+                        </div>
+                    </form>
+
+                    <div class="success-message" id="partnerSuccessMessage">
+                        <h3>Thank you for your interest!</h3>
+                        <p>We'll review your message and reach out soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <script src="../script.js"></script>
+</body>
+</html>

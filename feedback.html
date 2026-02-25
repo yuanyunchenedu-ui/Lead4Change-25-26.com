@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../feedback-handler.js" defer></script>
+</head>
+
+<body class="page-feedback-single">
+    <div class = "container">
+
+        <div class = "slides slide1 feedback-single-slide"> 
+            <div class = "header"> 
+                <a href="../first.html" class="teamtitle">L4C-25</a>
+                <nav class="nav">
+                    <div class="dropdown">
+                        <button class = "link"> Information </button>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-column">
+                                    <h3>Find Help</h3>
+                                    <a href="../find-help/resource1.html">EasterSeals</a>
+                                    <a href="../find-help/resource2.html">Invisible Reality</a>
+                                    <a href="../find-help/resource3.html">Making a Difference</a>
+                                </div>
+                                <div class="dropdown-column">
+                                    <h3>Learn More</h3>
+                                    <a href="../learn-more/mental-developmental-disabilities.html">Information on Invisible Disabilities</a>
+                                    <a href="../learn-more/chronic-illnesses.html">What we Do</a>
+                                    <a href="../learn-more/our-projects.html">Our Projects &amp; Initiatives</a>
+                                </div>
+                                <div class="dropdown-column">
+                                    <h3>Get Involved</h3>
+                                    <a href="feedback.html">Feedback</a>
+                                    <a href="partner.html">Partner</a>
+                                </div>
+                            </div>
+                    </div>
+                    <a href="../socials.html" class="link socials"> Contact Us </a>
+                    <button class = "link donate-nav"> Donate → </button>
+                </nav>
+            </div>
+            
+            <div class="feedback-content" id="feedbackContent">
+                <div class="feedback-title-container">
+                    <h1 class="feedback-title">Have suggestions?</h1>
+                    <h1 class="feedback-title">Let us know!</h1>
+                    <div class="title-divider"></div>
+                </div>
+                <button class="feedback-open-btn" id="openFeedbackBtn">Share Your Feedback</button>
+                
+                <div class="feedback-form-container" id="feedbackFormContainer">
+                    <form class="feedback-form" id="feedbackForm">
+                        <h2>We'd love to hear from you :-)</h2>
+                        
+                        <div class="form-group">
+                            <label for="name">Name (Optional)</label>
+                            <input type="text" id="name" name="name" placeholder="Your name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email (Optional)</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="feedback">Your Feedback *</label>
+                            <textarea id="feedback" name="feedback" rows="6" placeholder="Tell us how we can improve our website!" required></textarea>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="submit" class="submit-btn">Submit Feedback</button>
+                            <button type="button" class="cancel-btn" id="cancelBtn">Cancel</button>
+                        </div>
+                    </form>
+                    
+                    <div class="success-message" id="successMessage">
+                        <h3>Thank you for your feedback!</h3>
+                        <p>We appreciate you taking the time to share your thoughts with us.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+        <script src="../script.js"></script>
+</body>
+</html>
